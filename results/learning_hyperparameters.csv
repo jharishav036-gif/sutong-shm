@@ -1,0 +1,16 @@
+hyperparameter,value,note
+n_classes,4,severity classes
+n_features,387,320 CWT + 64 Hilbert + 3 scalars
+n_window_samples,333,37 x 3 records x 3 windows
+gnn_sigma_d_m,624.0,median pairwise sensor distance
+n_folds,5,GroupKFold over 13 damage groups
+n_seeds,3,seeds 0/1/2
+n_runs,15,5 folds x 3 seeds
+batch_size,16,
+epochs,120,"fixed budget, no early stopping; best-epoch selection by val accuracy, ECE tie-break"
+model_selection,"val accuracy, ECE tie-break",ECE-only selection degenerates to the uniform solution
+lr,0.0005,Adam
+weight_decay,1e-05,
+scheduler,"StepLR(40, 0.5)",
+lambda_kl,1.0,"KL weight cap; annealed as min(1, t/10) Sensoy schedule, alpha-tilde correction inside"
+evidence_cap,10000.0,numerical guard

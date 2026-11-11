@@ -1,0 +1,62 @@
+{
+  "stage": "FE model rebuild (stage 1)",
+  "n_nodes": 643,
+  "n_beams": 640,
+  "n_cables": 136,
+  "n_dofs": 1929,
+  "n_free_dofs": 1905,
+  "calibration_scales": {
+    "deck_mass": 0.9937,
+    "cable_area": 0.9939,
+    "pylon_I": 1.1048,
+    "deck_I": 1.1801
+  },
+  "mae_before_pct": 3.31,
+  "mae_after_pct": 1.93,
+  "max_err_after_pct": 4.09,
+  "floating_mode_Hz": 0.07,
+  "deck_deflection_cm": 23.2,
+  "pylon_drift_mm": 5.1,
+  "stress_ratio_min": 0.119,
+  "stress_ratio_max": 0.346,
+  "checks_total": 35,
+  "checks_failed": 0,
+  "runtime_s": 151.2,
+  "stage_2": {
+    "n_scenarios": 37,
+    "n_records_per_scenario": 3,
+    "n_channels": 64,
+    "fs_hz": 200.0,
+    "duration_s": 60.0,
+    "n_modes_baseline": 113,
+    "zeta": 0.02,
+    "checks_total": 19,
+    "checks_failed": 0,
+    "runtime_s": 250.1
+  },
+  "stage_3": {
+    "n_window_samples": 333,
+    "n_records": 111,
+    "n_features": 387,
+    "cwt_scales": 50,
+    "cwt_range_hz": [
+      0.05,
+      10.0
+    ],
+    "checks_total": 13,
+    "checks_failed": 0,
+    "runtime_s": 361.4
+  },
+  "stage_4": {
+    "n_window_samples": 333,
+    "n_runs": 15,
+    "pidl_acc_pct": 44.0,
+    "pidl_acc_std_pct": 7.5,
+    "val_ece_mean": 0.161,
+    "val_u_mean": 0.849,
+    "gnn_sigma_d_m": 624.0,
+    "checks_total": 12,
+    "checks_failed": 0,
+    "runtime_s": 18.8
+  }
+}

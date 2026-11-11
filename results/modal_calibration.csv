@@ -1,0 +1,8 @@
+label,f_measured_Hz,zeta_measured_pct,f_FE_documented_Hz,err_documented_pct,f_FE_calibrated_Hz,err_calibrated_pct,symmetry,main_span_half_waves
+VS1,0.1849,0.82,0.1814,-1.89,0.1829,-1.06,sym,1
+VAS1,0.2176,0.8,0.2225,2.25,0.2265,4.09,antisym,2
+VS2,0.3336,2.27,0.3162,-5.20,0.3242,-2.81,sym,3
+VAS2,0.3887,2.01,0.3816,-1.84,0.3941,1.39,antisym,4
+VS3,0.4471,1.18,0.4214,-5.75,0.4357,-2.55,sym,5
+VS4,0.5274,1.45,0.5087,-3.55,0.5236,-0.71,sym,7
+VS5,0.6641,2.06,0.6463,-2.67,0.6701,0.90,sym,7

@@ -1,0 +1,7 @@
+feature,dim,unit,channel-wise,definition
+cwt_band1..5,320,(m/s^2)^2 s,yes (64 x 5),"CWT energy per channel in the bands 0.05-0.20 / 0.20-0.50 / 0.50-1.00 / 1.00-2.00 / 2.00-10.00 Hz (Morlet w0=6, 50 log-spaced scales)"
+hilbert_decay,64,log/s,yes,LS slope of the log Hilbert envelope per window
+svd_entropy,1,nats,no,Shannon entropy of the squared singular values of the 64 x 4000 window matrix
+xspectral_phase_dev,1,rad,no,mean over the 42 adjacent deck-vertical pairs of the std of arg S_ij(f) over 0.1-2 Hz
+modal_amp_ratio,1,-,no,"identified mode-1 (floating) amplitude at the mid-span longitudinal sensor over the identified mode-2 (first vertical) amplitude at the mid-span vertical sensor (FDD shapes, unit normalised)"
+total per window,387,-,-,

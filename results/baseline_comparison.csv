@@ -1,0 +1,6 @@
+model,acc_mean_pct,acc_std_pct
+SVM (RBF),39.89,9.75
+Random Forest,38.68,8.71
+1D-CNN,43.27,8.95
+LSTM,43.76,7.67
+Transformer,42.72,6.13

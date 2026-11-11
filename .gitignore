@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.DS_Store
+
+# simulated monitoring records (~9 MB per scenario): regenerable with
+# scripts/run_scenarios.py; distributed through the release archive
+data/scenario_records/
+
+# resumable learning checkpoints (removed by the driver when complete)
+results/.learning_ckpt/

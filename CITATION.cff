@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: >-
+  If you use this codebase or the simulated dataset, please cite the
+  accompanying paper (manuscript 6920308, Advances in Civil Engineering,
+  under revision) and this archive by its Zenodo DOI.
+title: >-
+  Sutong Bridge SHM Research Codebase - calibrated 2-D FE model of the
+  Sutong cable-stayed unit, 37-scenario damage dataset, damage-sensitive
+  feature extraction, and evidential deep-learning pipeline
+type: software
+authors:
+  - family-names: Jha
+    given-names: Rishav
+    email: jharishav036@gmail.com
+  - family-names: Sahani
+    given-names: Kameshwar
+  - family-names: Sahani
+    given-names: Suresh Kumar
+  - family-names: Devi
+    given-names: A. Jayanthila
+preferred-citation:
+  type: article
+  title: >-
+    Evidential Deep Learning on Cable-Stayed Bridge Sensor Graphs: A
+    CWT-Augmented Structural-Graph Framework for Damage Identification
+  authors:
+    - family-names: Jha
+      given-names: Rishav
+    - family-names: Sahani
+      given-names: Kameshwar
+    - family-names: Sahani
+      given-names: Suresh Kumar
+    - family-names: Devi
+      given-names: A. Jayanthila
+  year: 2026
+version: 1.0.0
+date-released: '2026-11-11'
+license: MIT
+keywords:
+  - structural health monitoring
+  - cable-stayed bridge
+  - finite element model
+  - evidential deep learning
+  - graph neural network
+  - continuous wavelet transform

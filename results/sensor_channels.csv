@@ -1,0 +1,65 @@
+ch,tag,kind,node,x_m,y_m,direction
+0,D01,deck-vertical,9,36.0,64.4,vertical
+1,D02,deck-vertical,21,84.0,64.4,vertical
+2,D03,deck-vertical,33,132.0,64.4,vertical
+3,D04,deck-vertical,45,180.0,64.4,vertical
+4,D05,deck-vertical,57,228.0,64.4,vertical
+5,D06,deck-vertical,69,276.0,64.4,vertical
+6,D07,deck-vertical,81,324.0,64.4,vertical
+7,D08,deck-vertical,93,372.0,64.4,vertical
+8,D09,deck-vertical,105,420.0,64.4,vertical
+9,D10,deck-vertical,117,468.0,64.4,vertical
+10,D11,deck-vertical,129,516.0,64.4,vertical
+11,D12,deck-vertical,141,564.0,64.4,vertical
+12,D13,deck-vertical,153,612.0,64.4,vertical
+13,D14,deck-vertical,165,660.0,64.4,vertical
+14,D15,deck-vertical,177,708.0,64.4,vertical
+15,D16,deck-vertical,189,756.0,64.4,vertical
+16,D17,deck-vertical,201,804.0,64.4,vertical
+17,D18,deck-vertical,213,852.0,64.4,vertical
+18,D19,deck-vertical,225,900.0,64.4,vertical
+19,D20,deck-vertical,237,948.0,64.4,vertical
+20,D21,deck-vertical,249,996.0,64.4,vertical
+21,D22,deck-vertical,261,1044.0,64.4,vertical
+22,D23,deck-vertical,273,1092.0,64.4,vertical
+23,D24,deck-vertical,285,1140.0,64.4,vertical
+24,D25,deck-vertical,297,1188.0,64.4,vertical
+25,D26,deck-vertical,309,1236.0,64.4,vertical
+26,D27,deck-vertical,321,1284.0,64.4,vertical
+27,D28,deck-vertical,333,1332.0,64.4,vertical
+28,D29,deck-vertical,345,1380.0,64.4,vertical
+29,D30,deck-vertical,357,1428.0,64.4,vertical
+30,D31,deck-vertical,369,1476.0,64.4,vertical
+31,D32,deck-vertical,381,1524.0,64.4,vertical
+32,D33,deck-vertical,393,1572.0,64.4,vertical
+33,D34,deck-vertical,405,1620.0,64.4,vertical
+34,D35,deck-vertical,417,1668.0,64.4,vertical
+35,D36,deck-vertical,429,1716.0,64.4,vertical
+36,D37,deck-vertical,441,1764.0,64.4,vertical
+37,D38,deck-vertical,453,1812.0,64.4,vertical
+38,D39,deck-vertical,465,1860.0,64.4,vertical
+39,D40,deck-vertical,477,1908.0,64.4,vertical
+40,D41,deck-vertical,489,1956.0,64.4,vertical
+41,D42,deck-vertical,501,2004.0,64.4,vertical
+42,D43,deck-vertical,513,2052.0,64.4,vertical
+43,A01,deck-longitudinal,0,0.0,64.4,longitudinal
+44,A02,deck-longitudinal,129,516.0,64.4,longitudinal
+45,A03,deck-longitudinal,261,1044.0,64.4,longitudinal
+46,A04,deck-longitudinal,393,1572.0,64.4,longitudinal
+47,A05,deck-longitudinal,522,2088.0,64.4,longitudinal
+48,P1H300,pylon,576,500.0,300.4,horizontal
+49,P1V300,pylon,576,500.0,300.4,vertical
+50,P1H216,pylon,542,500.0,216.4,horizontal
+51,P1V216,pylon,542,500.0,216.4,vertical
+52,P2H300,pylon,630,1588.0,300.4,horizontal
+53,P2V300,pylon,630,1588.0,300.4,vertical
+54,P2H216,pylon,596,1588.0,216.4,horizontal
+55,P2V216,pylon,596,1588.0,216.4,vertical
+56,C01,cable-axial,261,1044.0,64.4,axis of river stay L34 (pylon 1)
+57,C02,cable-axial,257,1028.0,64.4,axis of river stay L33 (pylon 1)
+58,C03,cable-axial,5,20.0,64.4,axis of shore stay L34 (pylon 1)
+59,C04,cable-axial,8,32.0,64.4,axis of shore stay L33 (pylon 1)
+60,C05,cable-axial,261,1044.0,64.4,axis of river stay L34 (pylon 2)
+61,C06,cable-axial,265,1060.0,64.4,axis of river stay L33 (pylon 2)
+62,C07,cable-axial,517,2068.0,64.4,axis of shore stay L34 (pylon 2)
+63,C08,cable-axial,514,2056.0,64.4,axis of shore stay L33 (pylon 2)

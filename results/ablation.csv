@@ -1,0 +1,6 @@
+variant,acc_mean_pct,acc_std_pct,u_mean,n_params
+full (PI-DL),44.02,7.47,0.8492,73348
+no_gnn,42.08,5.76,0.7506,137316
+no_cwt,38.59,4.33,0.7062,4612
+no_scalars,46.13,7.18,0.9132,69060
+no_evidential (softmax CE),44.51,6.71,,73348

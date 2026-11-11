@@ -1,0 +1,5 @@
+true\pred,healthy,light,moderate,severe,total
+healthy,0,8,17,2,27
+light,0,114,145,65,324
+moderate,0,57,224,43,324
+severe,0,87,138,99,324
